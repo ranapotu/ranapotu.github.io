@@ -12,9 +12,11 @@ import { SectorsComponent } from './components/sectors/sectors.component';
 import { CareersComponent } from './components/careers/careers.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { HomeComponent } from './components/home/home.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, DropdownDirective, AboutComponent, SectorsComponent, CareersComponent, BlogsComponent, ContactComponent],
+  declarations: [AppComponent, NavbarComponent, DropdownDirective, AboutComponent, SectorsComponent, CareersComponent, BlogsComponent, ContactComponent, HomeComponent, FooterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
