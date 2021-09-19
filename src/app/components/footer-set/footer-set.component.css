@@ -1,0 +1,32 @@
+* {
+  background-color: grey;
+}
+
+.nav-footer {
+  padding: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 5px 0 5px;
+}
+
+li :hover {
+  text-decoration: underline;
+  text-decoration-color: brown;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-heading {
+  margin-left: 23px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}

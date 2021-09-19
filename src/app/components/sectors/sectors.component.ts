@@ -3,13 +3,25 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-sectors',
   templateUrl: './sectors.component.html',
-  styleUrls: ['./sectors.component.css']
+  styleUrls: ['./sectors.component.css'],
 })
 export class SectorsComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
-  }
-
+  data = [
+    {
+      img: './../../../assets/construction.jpg',
+      title: 'Slide 1',
+    },
+    {
+      img: './../../../assets/solar-panel.jpg',
+      title: 'Slide 2',
+    },
+    {
+      img: './../../../assets/electrician.jpg',
+      title: 'Slide 3',
+    },
+  ];
 }
