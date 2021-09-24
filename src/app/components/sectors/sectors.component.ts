@@ -23,5 +23,9 @@ export class SectorsComponent implements OnInit {
       img: './../../../assets/electrician.jpg',
       title: 'Slide 3',
     },
+    {
+      img: './../../../assets/transmission.jpg',
+      title: 'Slide 4',
+    },
   ];
 }

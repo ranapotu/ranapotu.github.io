@@ -40,6 +40,9 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     MaterialModule,
     NgbModule,
   ],
+
+  exports: [NavbarComponent, FooterComponent, FooterSetComponent],
+
   providers: [],
   bootstrap: [AppComponent],
 })
