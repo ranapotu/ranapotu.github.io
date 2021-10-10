@@ -23,3 +23,19 @@
 .about-para {
   font-size: 15px;
 }
+
+@media screen and (max-width: 480px) {
+  .about-head {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .content {
+    position: absolute;
+    left: 0;
+    top: 18%;
+    right: 0;
+    text-align: justify;
+    color: white;
+  }
+}
